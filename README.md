@@ -18,4 +18,4 @@ If you want build project, you may need Watcom C/C++ Compiler and Turbo Assemble
 
 Full Metal Jacket used Tiny MOD Player v2.11 for BGM play.
 
-![FMJ](fullmetaljacket-1.jpg) ![FMJ](fullmetaljacket-3.jpg) ![FMJ](fullmetaljacket-4.jpg) ![FMJ](fullmetaljacket-5.jpg)
+![FMJ](fullmetaljacket-1.png) ![FMJ](fullmetaljacket-3.png) ![FMJ](fullmetaljacket-4.png) ![FMJ](fullmetaljacket-5.png)
