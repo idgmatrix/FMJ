@@ -1,5 +1,7 @@
-# FMJ
+# Full Metal Jacket
 Full Metal Jacket (c)1995, 1996 Mirinae Software, Inc.
+
+![FMJ](fullmetaljacket.jpg)
 
 This is the all files of excutables, data and source files of PC game Full Metal Jacket.
 
@@ -15,3 +17,5 @@ FMJ.exe is the game excutable file. readme.exe is the manual for the game. insta
 If you want build project, you may need Watcom C/C++ Compiler and Turbo Assembler.
 
 Full Metal Jacket used Tiny MOD Player v2.11 for BGM play.
+
+![FMJ](fullmetaljacket-1.jpg) ![FMJ](fullmetaljacket-3.jpg) ![FMJ](fullmetaljacket-4.jpg) ![FMJ](fullmetaljacket-5.jpg)
