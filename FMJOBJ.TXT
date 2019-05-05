@@ -1,0 +1,37 @@
+OBJECT  struc
+
+obj_no dd      ?       ;4 1 오브젝트 분류번호
+
+x_ dd     ?       ;4 2 0 - 2047 coordinate
+y_ dd     ?       ;4 3 0 - 2047  32비트 고정 소수점 x, y좌표 : 오브젝트의 위치
+z dw      ?       ;2 4 16비트 z 좌표 : 오브젝트의 높이 위치
+vth db      ?       ;1 5 0 - 255 anngle of viewing
+dvth db      ?       ;1 6 delta angle of viewing
+
+mth db      ?       ;1 7 angle of moving      움직이는 방향의 각도 (0-255)
+dmth db      ?       ;1 8 delta angle of moving 각도 변화값 + , - 가 될 수 있다.
+dth db      ?       ;1 이것은 각도 변화값의 절대치이다
+ddir dw      ?       ;2 9 direction     16방향 가고 못가고 타일속성을 비트로 저장
+dspeed dw      ?       ;2 10             한 프레임당 이동 거리 즉 속도
+dlz dw      ?       ;2 11 delta z      z 방향 이동 거리(풀메자 1에서 사용 안함)
+
+dis dw      ?       ;2 12 displacement 아군캐릭터로부터 떨어진 거리 
+theta db      ?       ;1 13 angle         아군 캐릭터가 있는 방향각
+freem db      ?       ;1 14               좌우 대칭 지형에서 좌우로 왔다갔다 반복 회전
+                                            해서 캐릭터가 갇히는 것을 방지하기 위하여 특정
+                                            방향의 회전이
+                                            몇 번 이상 수행되기 전에는 반대방향 회전을
+                                             못하도록 막기위한 특정 방향 최소 회전 횟수
+
+spr_no dd      ?       ;4 15 sprite number 말그대로 스프라이트 번호
+spr_data        dd      ?       ;4 16 pointer of sprite data 말그대로
+crs_pointer     dd      ?       ;4 17 pointer of course data 말그대로
+
+stat            dd      ?       ;4 18 status 오브젝트의 상태 값(없음:0 시체:-1 보통:1 공격:2)
+energy          dw      ?       ;2 19 에너지 값
+xc              db      ?       ;1 20 center of rotation 회전 중심이 디폴트와 다를 경우
+yc              db      ?       ;1 21
+    ;  total 49 bytes
+OBJECT  ends
+
+
