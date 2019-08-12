@@ -12,7 +12,9 @@ License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported Lice
 
 You may run the game using DOS-BOX.
 
-FMJ.exe is the game excutable file. readme.exe is the manual for the game. install.exe is setup program for game.
+* FMJ.exe is the game excutable file. 
+* readme.exe is the manual for the game. 
+* install.exe is setup program for game.
 
 If you want build project, you may need Watcom C/C++ Compiler and Turbo Assembler.
 
