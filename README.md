@@ -16,7 +16,10 @@ You may run the game using DOS-BOX.
 * readme.exe is the manual for the game. 
 * install.exe is setup program for game.
 
-If you want build project, you may need Watcom C/C++ Compiler and Turbo Assembler.
+If you want build project, you may need 
+
+* Watcom C/C++ Compiler
+* Turbo Assembler.
 
 Full Metal Jacket used Tiny MOD Player v2.11 for BGM play.
 
